@@ -1,12 +1,11 @@
 Summary:	Virtual console management daemon
 Summary(pl):	Zarz±dca wirtualnych konsol
 Name:		consd
-Version:	1.3
+Version:	1.5.2
 Release:	1
 License:	GPL
 Group:		Daemons
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tgz
-Patch0:		%{name}-errno.patch
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,7 +24,6 @@ mo¿e wy¶wietlaæ, jaki proces jest uruchomiony na aktualnej konsoli.
 
 %prep
 %setup -q
-%patch -p1
 
 %build
 %{__make} CC="%{__cc}" CFLAGS="%{rpmcflags}"

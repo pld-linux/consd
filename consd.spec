@@ -1,5 +1,5 @@
-Summary:	Virtual Console Management Daemon
-Summary(pl):	Menad¿er wirtualnej konsoli
+Summary:	Virtual console management daemon
+Summary(pl):	Zarz±dca wirtualnych konsol
 Name:		consd
 Version:	1.3
 Release:	1
@@ -17,11 +17,11 @@ also a helper daemon that can display what process is running on the
 current console.
 
 %description -l pl
-Menad¿er wirtualnej konsoli - startuje i zabija getty w razie potrzeby
-(w zale¿no¶ci od ilo¶ci nieaktywnych getty). Dzia³a automatycznie w
-tle. Mo¿e koegzystowaæ z getty uruchomionymi przez inita. Jest tak¿e
-pomocniczy demon, który mo¿e wy¶wietlaæ, jaki proces jest uruchomiony
-na aktualnej konsoli.
+Jest to program zarz±dzaj±cy wirtualnymi konsolami - uruchamia i
+zabija getty w razie potrzeby (w zale¿no¶ci od ilo¶ci nieaktywnych
+getty). Dzia³a automatycznie w tle. Mo¿e wspó³istnieæ z getty
+uruchomionymi przez inita. Zawiera tak¿e pomocniczego demon, który
+mo¿e wy¶wietlaæ, jaki proces jest uruchomiony na aktualnej konsoli.
 
 %prep
 %setup -q

@@ -1,12 +1,12 @@
 Summary:	Virtual console management daemon
 Summary(pl):	Zarz±dca wirtualnych konsol
 Name:		consd
-Version:	1.5.4
+Version:	1.5.6
 Release:	1
 License:	GPL
 Group:		Daemons
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tgz
-# Source0-md5:	a4b7e849bf5d8844b4f3b4d3e2b5b1c7
+# Source0-md5:	4bb3c68bdec3a562f3f6852d2c91fe0a
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

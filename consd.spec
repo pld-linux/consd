@@ -5,8 +5,6 @@ Version:	1.3
 Release:	1
 License:	GPL
 Group:		Daemons
-Group(de):	Server
-Group(pl):	Serwery
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tgz
 Patch0:		%{name}-errno.patch
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

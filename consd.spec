@@ -1,7 +1,7 @@
 Summary:	Virtual console management daemon
 Summary(pl):	Zarz±dca wirtualnych konsol
 Name:		consd
-Version:	1.5.2
+Version:	1.5.3
 Release:	1
 License:	GPL
 Group:		Daemons
@@ -20,14 +20,15 @@ current console.
 Jest to program zarz±dzaj±cy wirtualnymi konsolami - uruchamia i
 zabija getty w razie potrzeby (w zale¿no¶ci od ilo¶ci nieaktywnych
 getty). Dzia³a automatycznie w tle. Mo¿e wspó³istnieæ z getty
-uruchomionymi przez inita. Zawiera tak¿e pomocniczego demon, który
+uruchomionymi przez inita. Zawiera tak¿e pomocniczego demona, który
 mo¿e wy¶wietlaæ, jaki proces jest uruchomiony na aktualnej konsoli.
 
 %prep
 %setup -q
 
 %build
-%{__make} CC="%{__cc}" CFLAGS="%{rpmcflags}"
+%{__make} \
+	CC="%{__cc}" CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT

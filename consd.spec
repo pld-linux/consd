@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Daemons
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tgz
-# Source0-md5:	54268011070aa9a78295762c35346dea
+# Source0-md5:	b43753b68b15d3d5a21fa08a76912ca3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

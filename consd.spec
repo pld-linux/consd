@@ -1,5 +1,5 @@
 Summary:	Virtual console management daemon
-Summary(pl.UTF-8):   Zarządca wirtualnych konsol
+Summary(pl.UTF-8):	Zarządca wirtualnych konsol
 Name:		consd
 Version:	1.5.6
 Release:	1
